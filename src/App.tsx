@@ -527,10 +527,13 @@ function App() {
                 <ChevronRight />
               </div>
 
-              <div>
-                <span>Настройки</span>
-                <ChevronRight />
-              </div>
+              <button
+  type="button"
+  onClick={() => alert("История генераций пока пуста")}
+>
+  <span>История генераций</span>
+  <ChevronRight />
+</button>
             </div>
           </section>
         )}
